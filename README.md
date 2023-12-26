@@ -23,9 +23,14 @@ This project implements the Residual-driven Fuzzy C-Means (RFCM) algorithm for c
 
 ## Usage
 Clone the repository: 
-```git clone https://github.com/Y1D1R/Residual-driven-Fuzzy-C-Means-Clustering-for-Image-Segmentation.git``` 
+```
+$ git clone https://github.com/Y1D1R/Residual-driven-Fuzzy-C-Means-Clustering-for-Image-Segmentation.git
+``` 
 
-Run the main script: ```python main.py```
+Run the main script: 
+``` 
+$ python main.py 
+```
 
 ## Results
 [Include visual results or link to a separate document showcasing segmentation results]
