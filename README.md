@@ -4,25 +4,26 @@ This project focuses on implementing the <a href="https://ieeexplore.ieee.org/do
 This project implements the Residual-driven Fuzzy C-Means (RFCM) algorithm for color image segmentation based on the work by Cong Wang, Witold Pedrycz, ZhiWu Li, and MengChu Zhou <a href="https://ieeexplore.ieee.org/document/9242330">[link]</a>. RFCM addresses the limitations of traditional Fuzzy C-Means (FCM) by incorporating a residual-related regularization term to precisely estimate noise, enhancing clustering performance.
 
 ## Key Features
-Residual-driven Approach: Integration of a residual-related fidelity term for accurate noise estimation.
+* **Residual-driven Approach :**  Integration of a residual-related fidelity term for accurate noise estimation.
+<p align="center">
+  <img src="images/fig.jpg" width='600' />
+</p>
 
-Spatial Information Integration: Framework incorporating spatial information for improved segmentation.
+* **Spatial Information Integration :** Framework incorporating spatial information for improved segmentation.
 
-Weighted Regularization Term: Introduction of a weighted -norm regularization term to handle mixed or unknown noise.
+* **Weighted Regularization Term:** Introduction of a weighted -norm regularization term to handle mixed or unknown noise.
 
-WRFCM Algorithm: The proposed algorithm, WRFCM, balances clustering efficiency and effectiveness by considering precise noise estimation.
+* **WRFCM Algorithm:** The proposed algorithm, WRFCM, balances clustering efficiency and effectiveness by considering precise noise estimation.
 
-Demonstrated Efficacy: Experimental validation on synthetic, medical, and real images showcasing superior segmentation results compared to other FCM variants.
+* **Demonstrated Efficacy:** Experimental validation on synthetic, medical, and real images showcasing superior segmentation results compared to other FCM variants.
 
-Low Computational Overhead: Efficient execution with minimal computational burden.
+* **Low Computational Overhead:** Efficient execution with minimal computational burden.
 
-Enhanced Segmentation in Noisy Environments: Contribution to improved image segmentation in the presence of mixed or unknown noise.
+* **Enhanced Segmentation in Noisy Environments:** Contribution to improved image segmentation in the presence of mixed or unknown noise.
 
 ## Usage
 Clone the repository: 
-```git clone [repository_url]``` 
-
-Install dependencies: [List dependencies and versions] 
+```git clone https://github.com/Y1D1R/Residual-driven-Fuzzy-C-Means-Clustering-for-Image-Segmentation.git``` 
 
 Run the main script: ```python main.py```
 
