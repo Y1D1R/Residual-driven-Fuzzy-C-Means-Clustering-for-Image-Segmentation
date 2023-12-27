@@ -19,7 +19,7 @@ Finally, this approach contributes to improving the performance of image segment
 
 ## Algorithm
 <p align="center">
-  <img src="images/fig1.jpg" width='600' />
+  <img src="images/fig1.jpg" width='400' />
 </p>
 
 The algorithm iteratively updates membership degrees, calculates cluster centers, residual matrix, and updates weights until convergence, effectively segmenting the image.
