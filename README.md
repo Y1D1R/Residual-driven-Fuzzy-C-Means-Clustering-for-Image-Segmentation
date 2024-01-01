@@ -128,8 +128,14 @@ SA provides an overall measure of how accurately the algorithm segments the imag
 MCC considers the balance between sensitivity (the ability to correctly detect positive instances) and specificity (the ability to correctly identify negative instances). <br>
 The MCC value ranges from -1 to 1, where 1 represents a perfect segmentation, 0 indicates random segmentation, and -1 suggests complete disagreement between the segmentation and the ground truth.
 
+
 **Sorensen-Dice Similarity (SDS):** The Sorensen-Dice Similarity, also known as the Dice coefficient, is a similarity measure commonly used in image segmentation evaluation. <br>It quantifies the similarity between the segmented region and the ground truth region. 
 <br>The SDS is calculated by dividing twice the number of overlapping pixels by the sum of the pixels in both regions. It ranges from 0 to 1, where 1 represents a perfect overlap between the segmented region and the ground truth, and 0 indicates no overlap.
+
+The tests were conducted on various types of images, including :
+<br>* **Medical images** ( <a href="http://www.bic.mni.mcgill.ca/brainweb/">BrainWeb : Simulated Brain Database</a> )
+<br>* **Synthetic images**
+<br>* **Real-World images** (<a href="https://neo.gsfc.nasa.gov/dataset_index.php">Nasa Earth Observation, NASA Earth Observation Database (NEO)</a>) and (<a href="https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/">The Berkeley Segmentation Dataset (BSDS)</a> ).
 
 
 
