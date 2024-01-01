@@ -51,27 +51,43 @@ $v_{ij}^{(t+1)} = \frac{\sum_{j=1}^K \left( \left( u_{ij}^{(t+1)} \right)^m \sum
 $w_{jl} = e^{-\xi r^2_{jl}}$
 
 ## Parameters
-* U : Fuzzy membership matrix where $u_{ij}$ represents the degree of membership of data point $x_j$ to cluster i.
+* **U : Fuzzy membership matrix** <br>
+Each element $u_{ij}$ in the matrix represents the likelihood or degree of membership of data point $x_j$ to cluster i. The values of U range between 0 and 1, where higher values indicate a stronger membership.
 
-* V : Matrix containing the cluster centroids $v_i$
+* **V : cluster centroids Matrix** <br>
+Each row corresponds to the centroid coordinates of a cluster. The centroids represent the representative or central points of the clusters and are updated iteratively during the algorithm's execution.
 
-* R : residual (noise)
+* **R : residual matrix (noise)** <br>
+It represents the unexplained variation in the data after clustering, and It is computed as the difference between the original data matrix $X$ and the reconstructed data matrix  $\hat{X}$ (noise-free Image), where  $\hat{X}$ is obtained by subtracting the noise matrix R from $X$.
+<br>The noise matrix captures the parts of the data that do not fit well into the clusters.
 
-* W : weight matrix
+* **W : weight matrix** <br>
+It determines the importance of each data point in the clustering process by assigning weights to the data points based on their relevance or significance.
 
-* β : parameter controls the impact of the fidelity term
+* **β : parameter controls the impact of the fidelity term**<br>
+It determines the trade-off between fitting the data accurately (fidelity) and achieving a smooth clustering solution (regularization). A higher value of β emphasizes the fidelity term, while a lower value emphasizes the regularization term.
 
-* ||.|| : Euclidiean distance
+* **||.|| : Euclidiean distance** <br>
+It is commonly used in clustering algorithms to calculate the similarity or proximity between points.
 
-* K : Number of points
-
-* C : Number of Clusters
+* **K : Number of points**
+<br> It represents the total number of data points in the image
+ 
+* **C : Number of Clusters**<br>
+Choosing the appropriate value for C depends on the complexity of the image and the specific segmentation task.
   
-* m : parameter to control the fuzziness of the clustering
+* **m : degree of fuzziness**
+It is an exponent that determines the "diffusivity" of the membership degrees. A higher value of m makes the membership degrees more discriminative, while a lower value makes them more diffuse.<br>
+A common value for m is usually between 2 and 5.
 
-* n : local window of size
+* **n : local window of size** <br>
+It is used in certain algorithms to define the proximity or influence of neighboring points on the clustering process.
 
-* $\xi$ : a positive parameter, which aims to control the decreasing rate of W
+* **$\xi$ : a positive parameter, which aims to control the decreasing rate of W**<br>
+It is used to influence the importance of regularization during the update of the W weights. A higher gives more weight to regularization, which can help suppress noise and achieve sharper boundaries.
+
+* **$\epsilon$ : The threshold determines the convergence criterion for the algorithm**<br>
+The idea behind this stopping criterion is that when the updates to the membership matrix **U** become negligible between iterations, it indicates that the clusters have stabilized and the members of the clusters are not changing significantly. At this point, it is considered that the algorithm has converged and can stop.
 
 
 ## Key Features
