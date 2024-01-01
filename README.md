@@ -140,6 +140,15 @@ The tests were conducted on various types of images, including :
 
 
 ## Limitations
+While **WRFCM (Weighted Robust Fuzzy C-Means)** is a useful algorithm for image segmentation, it also has some limitations:
+
+#### Selection of parameters:
+WRFCM requires the selection of various parameters, such as the number of clusters and fuzziness parameter. Choosing appropriate values for these parameters can be challenging and may require domain expertise.
+
+#### Computational complexity: 
+WRFCM involves iterative computations, which can be computationally expensive. As the number of data points and clusters increases, the algorithm's execution time may become a limiting factor.
+
+
 
 
 ## Citation
