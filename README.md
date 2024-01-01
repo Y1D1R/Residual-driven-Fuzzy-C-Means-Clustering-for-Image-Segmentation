@@ -93,8 +93,27 @@ Run the main script:
 $ python main.py 
 ```
 
-## Results
-[Include visual results or link to a separate document showcasing segmentation results]
+## Results and Evaluation
+The initial step in the evaluation process of our segmentation algorithm involves computing the confusion matrix.
+
+A confusion matrix is a table that summarizes the performance of a classification model by comparing its predicted labels to the true labels. It displays the number of true positives (TP), true negatives (TN), false positives (FP), and false negatives (FN) of the algorithm's predictions of clusters.
+
+In our case, the size of the Confusion Matrix will be (C * C) with C >= 2
+
+Then we we adopt three objective evaluation indicators:
+
+**Segmentation Accuracy (SA):** Segmentation Accuracy measures the proportion of correctly classified pixels in the segmented image compared to a reference or ground truth segmentation. It is calculated by dividing the number of correctly classified pixels by the total number of pixels in the image. <br>
+SA provides an overall measure of how accurately the algorithm segments the image, with higher values indicating better segmentation performance.
+
+**Matthews Correlation Coefficient (MCC):** The Matthews Correlation Coefficient is a measure of the quality of binary classifications, such as segmentation. It takes into account true positives, true negatives, false positives, and false negatives.<br>
+MCC considers the balance between sensitivity (the ability to correctly detect positive instances) and specificity (the ability to correctly identify negative instances). <br>
+The MCC value ranges from -1 to 1, where 1 represents a perfect segmentation, 0 indicates random segmentation, and -1 suggests complete disagreement between the segmentation and the ground truth.
+
+**Sorensen-Dice Similarity (SDS):** The Sorensen-Dice Similarity, also known as the Dice coefficient, is a similarity measure commonly used in image segmentation evaluation. <br>It quantifies the similarity between the segmented region and the ground truth region. 
+<br>The SDS is calculated by dividing twice the number of overlapping pixels by the sum of the pixels in both regions. It ranges from 0 to 1, where 1 represents a perfect overlap between the segmented region and the ground truth, and 0 indicates no overlap.
+
+
+
 
 ## Citation
 If you use this code, please cite the original paper:
