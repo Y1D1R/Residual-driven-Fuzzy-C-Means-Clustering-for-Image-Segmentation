@@ -13,8 +13,9 @@ Supervisor of the topic: Mr Laurent WENDLING<br>
 4. [Key Features](#key-features)
 5. [Usage](#usage)
 6. [Results](#results)
-7. [Citation](#citation)
-8. [Contribution](#contribution)
+7. [Limitations](#limitations)
+8. [Citation](#citation)
+9. [Contribution](#contribution)
 
 ## Overview
 This project implements the Residual-driven Fuzzy C-Means (RFCM) algorithm for color image segmentation based on the work by Cong Wang, Witold Pedrycz, ZhiWu Li, and MengChu Zhou <a href="https://ieeexplore.ieee.org/document/9242330">[link]</a>. RFCM addresses the limitations of traditional Fuzzy C-Means (FCM) by incorporating a residual-related regularization term to precisely estimate noise, enhancing clustering performance.
@@ -138,6 +139,7 @@ The tests were conducted on various types of images, including :
 <br>* **Real-World images** (<a href="https://neo.gsfc.nasa.gov/dataset_index.php">Nasa Earth Observation, NASA Earth Observation Database (NEO)</a>) and (<a href="https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/">The Berkeley Segmentation Dataset (BSDS)</a> ).
 
 
+## Limitations
 
 
 ## Citation
