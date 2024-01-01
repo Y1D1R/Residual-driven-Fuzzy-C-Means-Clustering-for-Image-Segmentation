@@ -3,6 +3,9 @@ This project focuses on implementing the <a href="https://ieeexplore.ieee.org/do
 
 It is carried out as part of the 'Modélisation des systèmes de vision' module in the Master 2 Vision et Machine Intelligente program at the University of Paris Cité.
 
+By : Yidhir Aghiles KOULAL <br>
+Professor: Mr Camille KURTZ<br>
+Supervisor of the topic: Mr Laurent WENDLING<br>
 #### Table of contents
 1. [Overview](#overview)
 2. [Algorithm](#algorithm)
