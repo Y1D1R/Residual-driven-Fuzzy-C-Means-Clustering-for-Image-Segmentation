@@ -136,7 +136,22 @@ The MCC value ranges from -1 to 1, where 1 represents a perfect segmentation, 0 
 The tests were conducted on various types of images, including :
 <br>* **Medical images** ( <a href="http://www.bic.mni.mcgill.ca/brainweb/">BrainWeb : Simulated Brain Database</a> )
 <br>* **Synthetic images**
-<br>* **Real-World images** (<a href="https://neo.gsfc.nasa.gov/dataset_index.php">Nasa Earth Observation, NASA Earth Observation Database (NEO)</a>) and (<a href="https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/">The Berkeley Segmentation Dataset (BSDS)</a> ).
+<br>* **Real-World images** 
+<br>(<a href="https://neo.gsfc.nasa.gov/dataset_index.php">Nasa Earth Observation, NASA Earth Observation Database (NEO)</a>) 
+<p align="center">
+  <img src="images/nasa1.jpg" width='300' />
+  <img src="images/NASAgt.png" width='300' />
+  <img src="images/NASAsegmentedResult.png" width='300' />
+</p>
+Nasa Earth Observation image, Ground Truth and WRFCM result.
+
+| Algorithm  | SA | SDS | MCC |
+| ------------- | ------------- | ------------- |------------- |
+| Original WRFCM | 98.881 | 98.797 | 97.582 |
+| Implemented WRFCM | 0.99  | 0.99  | 0.99 |
+
+
+<br>(<a href="https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/">The Berkeley Segmentation Dataset (BSDS)</a> ).
 
 
 ## Limitations
