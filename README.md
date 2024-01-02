@@ -138,7 +138,7 @@ The tests were conducted on various types of images, including :
 <br><p align="center">
   <img src="images/MRInoise.jpg" width='300' />
   <img src="images/MRI4gt.png" width='300' />
-  <img src="images/MRI4gt.png" width='300' />
+  <img src="images/mriR.jpg" width='300' />
 </p>
 MRI image, Ground Truth and WRFCM result.
 
