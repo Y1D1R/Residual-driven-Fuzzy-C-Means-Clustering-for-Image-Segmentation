@@ -98,8 +98,6 @@ The idea behind this stopping criterion is that when the updates to the membersh
 
 * **Weighted Regularization Term:** Introduction of a weighted -norm regularization term to handle mixed or unknown noise.
 
-* **Low Computational Overhead:** Efficient execution with minimal computational burden.
-
 * **Enhanced Segmentation in Noisy Environments:** Contribution to improved image segmentation in the presence of mixed or unknown noise.
 
 ## Usage
