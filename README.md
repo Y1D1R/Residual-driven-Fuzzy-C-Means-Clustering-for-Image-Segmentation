@@ -146,7 +146,7 @@ MRI image, Ground Truth and WRFCM result.
 | ------------- | ------------- | ------------- |------------- |------------- |
 | Original WRFCM | 82.317 | 98.966 | 98.147 | 4 |
 | Implemented WRFCM | 0.971 | 0.96  |  0.93 | 2 |
-| Implemented WRFCM | 0.99  | 0.99  | 0.99 | 4 |
+| Implemented WRFCM | 0.95  | 0.87  | 0.85 | 4 |
 
 <br>* **Synthetic images**
 <br>* **Real-World images** 
@@ -156,6 +156,7 @@ MRI image, Ground Truth and WRFCM result.
   <img src="images/NASAgt.png" width='300' />
   <img src="images/NASAsegmentedResult.png" width='300' />
 </p>
+
 Nasa Earth Observation image, Ground Truth and WRFCM result.
 
 | Algorithm  | SA | SDS | MCC |
