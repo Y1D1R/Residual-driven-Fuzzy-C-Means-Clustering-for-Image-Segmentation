@@ -12,7 +12,7 @@ Supervisor of the topic: Mr Laurent WENDLING<br>
 3. [Parameters](#parameters)
 4. [Key Features](#key-features)
 5. [Usage](#usage)
-6. [Results](#results)
+6. [Results](#results-and-evaluation)
 7. [Limitations](#limitations)
 8. [Citation](#citation)
 9. [Contribution](#contribution)
