@@ -132,7 +132,9 @@ The MCC value ranges from -1 to 1, where 1 represents a perfect segmentation, 0 
 <br>The SDS is calculated by dividing twice the number of overlapping pixels by the sum of the pixels in both regions. It ranges from 0 to 1, where 1 represents a perfect overlap between the segmented region and the ground truth, and 0 indicates no overlap.
 
 The tests were conducted on various types of images, including :
-<br>* **Medical images** ( <a href="http://www.bic.mni.mcgill.ca/brainweb/">BrainWeb : Simulated Brain Database</a> )
+<HR>
+
+#### Medical images ( <a href="http://www.bic.mni.mcgill.ca/brainweb/">BrainWeb : Simulated Brain Database</a> )
 <br><p align="center">
   <img src="images/MRInoise.jpg" width='200' />
   <img src="images/MRI4gt.png" width='200' />
@@ -154,8 +156,9 @@ For convergence analysis, we draw the curve of $\theta = || U^{(t+1)} - U^{(t)} 
 </p>
 
 The oscillation in $\theta$ is observed due to the random initialization of the prototypes.
+<HR>
 
-<br>* **Synthetic images**
+* **Synthetic images**
 
 <p align="center">
   <img src="images/myImageNN.png" width='200' />
@@ -169,8 +172,9 @@ Synthetic image with noise, Ground Truth and WRFCM result.
 | ------------- | ------------- | ------------- |------------- |
 | Original WRFCM | 99.859 |99.937| 99.843 |
 | Implemented WRFCM | 99.9  | 99.5  | 99.07 |
+<HR>
 
-<br>* **Real-World images** 
+* **Real-World images** 
 <br>(<a href="https://neo.gsfc.nasa.gov/dataset_index.php">Nasa Earth Observation, NASA Earth Observation Database (NEO)</a>) 
 <p align="center">
   <img src="images/nasa1.jpg" width='200' />
