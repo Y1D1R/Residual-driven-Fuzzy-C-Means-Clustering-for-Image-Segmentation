@@ -158,16 +158,16 @@ The oscillation in $\theta$ is observed due to the random initialization of the 
 <br>* **Synthetic images**
 
 <p align="center">
-  <img src="images/myImage.png" width='200' />
   <img src="images/myImageNN.png" width='200' />
+  <img src="images/myImage.png" width='200' />
   <img src="images/myImageNN.png" width='200' />
 </p>
 
-Synthetic image, Ground Truth and WRFCM result.
+Synthetic image with noise, Ground Truth and WRFCM result.
 
 | Algorithm  | SA | SDS | MCC |
 | ------------- | ------------- | ------------- |------------- |
-| Original WRFCM | 99.881 | 98.797 | 97.582 |
+| Original WRFCM | 99.859 |99.937| 99.843 |
 | Implemented WRFCM | 99.9  | 99.5  | 99.07 |
 
 <br>* **Real-World images** 
