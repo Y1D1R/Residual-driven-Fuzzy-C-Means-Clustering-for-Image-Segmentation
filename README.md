@@ -143,8 +143,8 @@ MRI image, Ground Truth and WRFCM result.
 | Algorithm  | SA | SDS | MCC | Clusters|
 | ------------- | ------------- | ------------- |------------- |------------- |
 | Original WRFCM | 82.317 | 98.966 | 98.147 | 4 |
-| Implemented WRFCM | 0.971 | 0.96  |  0.93 | 2 |
-| Implemented WRFCM | 0.95  | 0.87  | 0.85 | 4 |
+| Implemented WRFCM | 97.12 | 96.03  |  93.68 | 2 |
+| Implemented WRFCM | 95.993  | 87.806  | 85.103 | 4 |
 
 <br>* **Synthetic images**
 <br>* **Real-World images** 
