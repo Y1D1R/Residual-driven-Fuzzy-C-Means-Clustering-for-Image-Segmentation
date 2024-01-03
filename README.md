@@ -155,12 +155,25 @@ MRI image, Ground Truth and WRFCM result.
   <img src="images/NASAsegmentedResult.png" width='200' />
 </p>
 
-Nasa Earth Observation image, Ground Truth and WRFCM result.
+Nasa Earth Observation image with 2 clusters, Ground Truth and WRFCM result.
 
 | Algorithm  | SA | SDS | MCC |
 | ------------- | ------------- | ------------- |------------- |
-| Original WRFCM | 98.881 | 98.797 | 97.582 |
-| Implemented WRFCM | 0.99  | 0.99  | 0.99 |
+| Original WRFCM | 99.881 | 98.797 | 97.582 |
+| Implemented WRFCM | 99.9  | 99.5  | 99.07 |
+
+<p align="center">
+  <img src="images/NASA44.png" width='200' />
+  <img src="images/NASA4c.png" width='200' />
+  <img src="images/nasa4.jpg" width='200' />
+</p>
+
+Nasa Earth Observation image with 4 clusters, Ground Truth and WRFCM result.
+
+| Algorithm  | SA | SDS | MCC |
+| ------------- | ------------- | ------------- |------------- |
+| Original WRFCM | 99.08 | 99.149 | 98.512 |
+| Implemented WRFCM | 99.92  | 99.68  | 99.64 |
 
 
 <br>(<a href="https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/">The Berkeley Segmentation Dataset (BSDS)</a> ).
