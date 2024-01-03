@@ -134,7 +134,7 @@ The MCC value ranges from -1 to 1, where 1 represents a perfect segmentation, 0 
 The tests were conducted on various types of images, including :
 <HR>
 
-#### Medical images ( <a href="http://www.bic.mni.mcgill.ca/brainweb/">BrainWeb : Simulated Brain Database</a> )
+* **Medical images** ( <a href="http://www.bic.mni.mcgill.ca/brainweb/">BrainWeb : Simulated Brain Database</a> )
 <br><p align="center">
   <img src="images/MRInoise.jpg" width='200' />
   <img src="images/MRI4gt.png" width='200' />
