@@ -156,6 +156,20 @@ For convergence analysis, we draw the curve of $\theta = || U^{(t+1)} - U^{(t)} 
 The oscillation in $\theta$ is observed due to the random initialization of the prototypes.
 
 <br>* **Synthetic images**
+
+<p align="center">
+  <img src="images/myImage.png" width='200' />
+  <img src="images/myImageNN.png" width='200' />
+  <img src="images/myImageNN.png" width='200' />
+</p>
+
+Synthetic image, Ground Truth and WRFCM result.
+
+| Algorithm  | SA | SDS | MCC |
+| ------------- | ------------- | ------------- |------------- |
+| Original WRFCM | 99.881 | 98.797 | 97.582 |
+| Implemented WRFCM | 99.9  | 99.5  | 99.07 |
+
 <br>* **Real-World images** 
 <br>(<a href="https://neo.gsfc.nasa.gov/dataset_index.php">Nasa Earth Observation, NASA Earth Observation Database (NEO)</a>) 
 <p align="center">
