@@ -146,6 +146,15 @@ MRI image, Ground Truth and WRFCM result.
 | Implemented WRFCM | 97.12 | 96.03  |  93.68 | 2 |
 | Implemented WRFCM | 95.993  | 87.806  | 85.103 | 4 |
 
+For convergence analysis, we draw the curve of $\theta = || U^{(t+1)} - U^{(t)} ||$ 
+
+<br><p align="center">
+  <img src="images/convWrfcm.jpg" width='250' />
+  <img src="images/ConvMRI4.png" width='250' />
+</p>
+
+The oscillation in $\theta$ is observed due to the random initialization of the prototypes.
+
 <br>* **Synthetic images**
 <br>* **Real-World images** 
 <br>(<a href="https://neo.gsfc.nasa.gov/dataset_index.php">Nasa Earth Observation, NASA Earth Observation Database (NEO)</a>) 
