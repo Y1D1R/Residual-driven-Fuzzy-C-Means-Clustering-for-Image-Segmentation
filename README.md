@@ -204,7 +204,19 @@ Nasa Earth Observation image with 4 clusters, Ground Truth and WRFCM result.
 | Implemented WRFCM | 99.92  | 99.68  | 99.64 |
 
 
-<br>(<a href="https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/">The Berkeley Segmentation Dataset (BSDS)</a> ).
+<br>(<a href="https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/">The Berkeley Segmentation Dataset (BSDS)</a> )
+<br><p align="center">
+  <img src="images/horses.jpg" width='200' />
+  <img src="images/horseGT.png" width='200' />
+  <img src="images/SegHorses.png" width='200' />
+</p>
+BSDS image, Ground Truth and WRFCM result.
+
+| Algorithm  | SA | SDS | MCC | 
+| ------------- | ------------- | ------------- |------------- |
+| Original WRFCM | 98.732 | 98.162 | 97.201 | 
+| Implemented WRFCM |87.361 | 89.457  |  76.361 | 
+
 
 
 ## Limitations
