@@ -164,7 +164,7 @@ The oscillation in $\theta$ is observed due to the random initialization of the 
 <p align="center">
   <img src="images/myImageNN.png" width='200' />
   <img src="images/myImage.png" width='200' />
-  <img src="images/myImageNN.png" width='200' />
+  <img src="images/synt.jpg" width='200' />
 </p>
 
 Synthetic image with noise, Ground Truth and WRFCM result.
@@ -172,7 +172,7 @@ Synthetic image with noise, Ground Truth and WRFCM result.
 | Algorithm  | SA | SDS | MCC |
 | ------------- | ------------- | ------------- |------------- |
 | Original WRFCM | 99.859 |99.937| 99.843 |
-| Implemented WRFCM | 99.9  | 99.5  | 99.07 |
+| Implemented WRFCM | 99.85  | 99.70  | 99.60 |
 <HR>
 
 * **Real-World images** 
