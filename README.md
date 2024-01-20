@@ -223,6 +223,11 @@ To decrease execution time and prevent the random initialization of prototypes, 
 
 Instead of randomly initializing the centroid matrix V, we employ the K-means algorithm for the initialization. The results were remarkable: a significant reduction in the number of iterations and, consequently, the execution time.
 
+<br><p align="center">
+  <img src="images/cv1.png" width='200' />
+  <img src="images/cv2.png" width='200' />
+</p>
+
 The reduction in iteration count and execution time is particularly noteworthy, showcasing the effectiveness of this initialization strategy in optimizing the clustering process.
 
 ## Limitations
