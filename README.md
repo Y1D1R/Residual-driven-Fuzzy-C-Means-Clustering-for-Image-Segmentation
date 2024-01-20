@@ -221,6 +221,10 @@ BSDS image, Ground Truth and WRFCM result.
 ## Improvement
 To decrease execution time and prevent the random initialization of prototypes, which leads to unnecessary iterations, I am considering employing k-means to obtain cluster centers at the beginning of the algorithm.
 
+Instead of randomly initializing the centroid matrix V, we employ the K-means algorithm for the initialization. The results were remarkable: a significant reduction in the number of iterations and, consequently, the execution time.
+
+The reduction in iteration count and execution time is particularly noteworthy, showcasing the effectiveness of this initialization strategy in optimizing the clustering process.
+
 ## Limitations
 While **WRFCM (Weighted Robust Fuzzy C-Means)** is a useful algorithm for image segmentation, it also has some limitations:
 
