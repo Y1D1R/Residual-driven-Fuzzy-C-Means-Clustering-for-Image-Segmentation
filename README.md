@@ -16,7 +16,7 @@ Professor: Mr Camille KURTZ<br>
 7. [Improvement](#improvement)
 8. [Limitations](#limitations)
 9. [Citation](#citation)
-10. [Contribution](#contribution)
+
 
 ## Overview
 This project implements the Residual-driven Fuzzy C-Means (RFCM) algorithm for color image segmentation based on the work by Cong Wang, Witold Pedrycz, ZhiWu Li, and MengChu Zhou <a href="https://ieeexplore.ieee.org/document/9242330">[link]</a>. RFCM addresses the limitations of traditional Fuzzy C-Means (FCM) by incorporating a residual-related regularization term to precisely estimate noise, enhancing clustering performance.
@@ -247,5 +247,4 @@ If you use this code, please cite the original paper:
 
 Cong Wang, Witold Pedrycz, ZhiWu Li & MengChu Zhou. “Residual-driven Fuzzy C-Means Clustering for Image Segmentation”. en. In : IEEE/CAA JOURNAL OF AUTOMATICA SINICA. 8 (2021), p. 876-889.
 
-## Contribution
-Feel free to contribute by opening issues or submitting pull requests.
+
