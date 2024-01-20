@@ -13,9 +13,10 @@ Supervisor of the topic: Mr Laurent WENDLING<br>
 4. [Key Features](#key-features)
 5. [Usage](#usage)
 6. [Results](#results-and-evaluation)
-7. [Limitations](#limitations)
-8. [Citation](#citation)
-9. [Contribution](#contribution)
+7. [Improvement](#improvement)
+8. [Limitations](#limitations)
+9. [Citation](#citation)
+10. [Contribution](#contribution)
 
 ## Overview
 This project implements the Residual-driven Fuzzy C-Means (RFCM) algorithm for color image segmentation based on the work by Cong Wang, Witold Pedrycz, ZhiWu Li, and MengChu Zhou <a href="https://ieeexplore.ieee.org/document/9242330">[link]</a>. RFCM addresses the limitations of traditional Fuzzy C-Means (FCM) by incorporating a residual-related regularization term to precisely estimate noise, enhancing clustering performance.
@@ -217,7 +218,8 @@ BSDS image, Ground Truth and WRFCM result.
 | Original WRFCM | 98.732 | 98.162 | 97.201 | 
 | Implemented WRFCM |87.361 | 89.457  |  76.361 | 
 
-
+## Improvement
+To decrease execution time and prevent the random initialization of prototypes, which leads to unnecessary iterations, I am considering employing k-means to obtain cluster centers at the beginning of the algorithm.
 
 ## Limitations
 While **WRFCM (Weighted Robust Fuzzy C-Means)** is a useful algorithm for image segmentation, it also has some limitations:
