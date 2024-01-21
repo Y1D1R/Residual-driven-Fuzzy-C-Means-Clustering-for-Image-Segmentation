@@ -231,7 +231,7 @@ Instead of randomly initializing the centroid matrix V, we employ the K-means al
 The reduction in iteration count and execution time is particularly noteworthy, showcasing the effectiveness of this initialization strategy in optimizing the clustering process.
 
 ## Limitations
-While **WRFCM (Weighted Robust Fuzzy C-Means)** is a useful algorithm for image segmentation, it also has some limitations:
+While **WRFCM** is a useful algorithm for image segmentation, it also has some limitations:
 
 #### Selection of parameters:
 WRFCM requires the selection of various parameters, such as the number of clusters and fuzziness parameter. Choosing appropriate values for these parameters can be challenging and may require domain expertise.
