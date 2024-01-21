@@ -64,7 +64,7 @@ It represents the unexplained variation in the data after clustering, and It is 
 <br>The noise matrix captures the parts of the data that do not fit well into the clusters.
 
 * **W : weight matrix** <br>
-It determines the importance of each data point in the clustering process by assigning weights to the data points based on their relevance or significance.
+It determines the importance of each residual to form a weighted residual that obeys a Gaussian distribution.
 
 * **β : parameter controls the impact of the fidelity term**<br>
 It determines the trade-off between fitting the data accurately (fidelity) and achieving a smooth clustering solution (regularization). A higher value of β emphasizes the fidelity term, while a lower value emphasizes the regularization term.
