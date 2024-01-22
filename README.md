@@ -147,7 +147,6 @@ MRI image, Ground Truth and WRFCM result.
 | Algorithm  | SA | SDS | MCC | Clusters|
 | ------------- | ------------- | ------------- |------------- |------------- |
 | Original WRFCM | 82.317 | 98.966 | 98.147 | 4 |
-| Implemented WRFCM | 97.12 | 96.03  |  93.68 | 2 |
 | Implemented WRFCM | 95.993  | 87.806  | 85.103 | 4 |
 
 For convergence analysis, we draw the curve of $\theta = || U^{(t+1)} - U^{(t)} ||$ 
