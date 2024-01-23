@@ -107,10 +107,12 @@ Clone the repository:
 $ git clone https://github.com/Y1D1R/Residual-driven-Fuzzy-C-Means-Clustering-for-Image-Segmentation.git
 ``` 
 
-Run the main script: 
+Befor runing the main script, you must change the path of your image: 
 ``` 
-$ python main.py 
+$ python wrfcm.py 
 ```
+
+You can also use the Google Colab notebook.
 
 ## Results and Evaluation
 The initial step in the evaluation process of our segmentation algorithm involves computing the confusion matrix.
