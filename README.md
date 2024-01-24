@@ -1,7 +1,7 @@
 # Residual-driven-Fuzzy-C-Means-Clustering-for-Image-Segmentation
 This project focuses on implementing the <a href="https://ieeexplore.ieee.org/document/9242330">Residual-driven Fuzzy C-Means Clustering for Image Segmentation</a> algorithm in Python. The repository provides a brief overview of the algorithm steps and dives into the implementation and the results.
 
-It is carried out as part of the 'Modélisation des systèmes de vision' module in the Master 2 Vision et Machine Intelligente program at the University of Paris Cité.
+It is carried out as part of the 'Modélisation des systèmes de vision' module in the Master 2 Vision et Machine Intelligente program at University Paris Cité.
 
 By : Yidhir Aghiles KOULAL <br>
 Supervisor of the topic: Mr Laurent WENDLING<br>
