@@ -112,7 +112,7 @@ Befor runing the main script, you must change the path of your image:
 $ python wrfcm.py 
 ```
 
-You can also use the Google Colab notebook.
+You can also use the **Google Colab notebook**.
 
 ## Results and Evaluation
 The initial step in the evaluation process of our segmentation algorithm involves computing the confusion matrix.
