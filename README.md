@@ -210,7 +210,7 @@ Nasa Earth Observation image with 4 clusters, Ground Truth and WRFCM result.
 <br><p align="center">
   <img src="images/horses.jpg" width='200' />
   <img src="images/horsesGT.png" width='200' />
-  <img src="images/SegHorses.png" width='200' />
+  <img src="images/p1.png" width='200' />
 </p>
 BSDS image, Ground Truth and WRFCM result.
 
